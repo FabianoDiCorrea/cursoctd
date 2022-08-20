@@ -1,98 +1,43 @@
 body {
-
-    background-color: #181818;
-    font-family: 'Roboto', sans-serif;
-    margin: 71px 0;
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/1431920-fundo-verde-abstrato-gr%C3%A1tis-vetor.jpg);
+    display: table;
+    width: 90vw;
+    height: 10vh;
+    padding: 90px;
+    background-position: 0% 31%;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
     
 }
 
-.page-title {
+h1 {
+    color: bisque;
+    background-color: rgba(0, 0, 0, 0.753);
+}
 
-    color: rgb(236, 54, 78);
-    padding-left: 64px;
-    margin-bottom: 6px;
+h2 {
+    background-color: rgba(100, 148, 237, 0.801);
+    width: 800px;
+    height: 15px;
+    color: rgb(233, 158, 20);
+    text-shadow: 
+               -1px -1px 0px rgb(10, 10, 10), 
+               -1px 1px 0px rgb(10, 10, 10),                    
+                1px -1px 0px rgb(7, 7, 7),                  
+                1px 0px 0px rgb(7, 7, 7);
 
 }
 
-.page-description {
-    color: rgb(255, 255, 255, 0.6);
-    padding-left: 64px;
-
-}
-
-.videos {
-
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    gap: 12px;
-
-}
-
-.video {
-
-    width: 30%;
-    height: fit-content;
-    margin-top: 24px;
-    padding: 32px 12px;
-    transition: .5s ease-in-out;
-    cursor: pointer;
-
-}
-
-.video:hover {
-
-    transform: scale(1.02);
-    filter: brightness(120%);
-
-}
-
-.thumbnail {
-
-    width: 100%;
-
-}
-
-.video-time {
-
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: fit-content;
-    float: right;
-    padding: 8px 12px;
-    display: block;
-    transform: translateY(-35px);
-
-}
-
-.video-title {
-    color: white;
-    margin: 8px 0 12px;
-
-}
-
-.video-description {
-
-    color: rgba(255, 255, 255, 0.6);
-    margin: 0;
-
-}
-
-.video-views {
-
-    color: rgba(255, 255, 255, 0.6);
-    margin-top: 12px;
-    display: block;
-
-}
-
-.video-date {
-    
-    color: rgba(255, 255, 255, 0.4);
-    text-align: right;
-    display: block;
-    font-size: 12px;
-
+a {
+color: rgb(0, 0, 0);
+text-shadow: 
+               -1px -1px 0px rgba(245, 242, 242, 0.562), 
+               -1px 1px 0px rgba(250, 248, 248, 0.562),                    
+                1px -1px 0px rgba(248, 246, 246, 0.541),                  
+                1px 0px 0px rgba(252, 250, 250, 0.534);
+    font-weight: bold;
+    font-size: 20px;
 }

@@ -1,0 +1,10 @@
+div {
+    background-color: black;
+    margin-top: auto;
+    width: 100%;
+    height: 1.5em;
+}
+
+div p {
+    color: white;
+}

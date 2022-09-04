@@ -1,537 +1,120 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
     box-sizing: border-box;
-    
-
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
 }
 
-.top{
-    background-color: black;
-    color: white;
-    position: absolute;
-    width: 100%;
-    height: 30px;
-    
-}
-
-nav{
-    position: absolute;
-    left: 1600px;
-    bottom: 4px;
-}
-
-nav li{
-    display: inline-block;
-    margin: 0 0 0 18px;
-    margin-left: 30px;
-    font-size: 13px;
-}
-    
-.toptext{
-    position: relative;
-    text-align: left;
-    margin: 8px;
-    left: 70px;
-    font-size: 12px;
-}
-.seta{
-    position: relative;
-    left: 1690px;
-    bottom: 17px;
-    width: 18px;
-}
-.seta2{
-    position: relative;
-    left: 1735px;
-    bottom: 17px;
-    width: 18px;
-}
-
-.textp{
-    position: relative;
-    color: rgb(10, 10, 10);
-    font-size: 22px;
-    padding: 25px;
-    left: 30px;
-    font-weight: 700;
-}
-
-.span2{
-    color: #F0A83E;
-}
-.h2marca{
-    position: relative;
-    width: 100%;
-    height: 70px;
-    top: 30px;
-    background: #F0A83E;
-}
-
-.cat{
-    position: relative;
-    height: 40px;
-    left: 16px;
-    bottom: 60px;
-}
-
-.dog{
-    position: relative;
-    height: 35px;
-    left: 163px;
-    bottom: 60px;
-    transform: rotate(15deg);
-}
-.nav2{
-    position: absolute;
-    left: 1500px;
-    top: 25px;
-        
-}
-
-a{
-  color: white;  
-  text-decoration: none;
-  width: 25px;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.paw1{
-    position: absolute;
-    height: 40px;
-    left: -2px;
-    bottom: 12px;
-    padding: 10px;
-}
-
-.paw2{
-    position: absolute;
-    height: 40px;
-    left: 99px;
-    bottom: 12px;
-    padding: 10px;
-}
-
-.paw3{
-    position: absolute;
-    height: 40px;
-    left: 160px;
-    bottom: 12px;
-    padding: 10px;
-}
-
-.paw4{
-    position: absolute;
-    height: 40px;
-    left: 279px;
-    bottom: 12px;
-    padding: 10px;
-}
-
-.background{
-    position: relative;
-    width: 100%;
-    height: 1000px;
-    bottom: 90px;
-}
-
-.prazer{
-    position: absolute;
-    color: rgb(7, 7, 7);
-    font-size:50px;
-    font-weight: 700px;
-    padding: 12px 32px 14px 30px;
-    margin: 55px;
-    top: 370px;
-    background: #f5f3f0;
-    left: 1170px;
-    border-radius: 10px;
-    
-}
-
-.text2{
-    color: #3C2313;
-    position: absolute;
-    font-size:25px;
-    
-    padding: 12px 32px 14px 30px;
-    margin: 55px;
-    top: 450px;
-    left: 1280px;
-}
-
-.text3{
-    position: absolute;
-    color: rgb(252, 249, 249);
-    font-size: 16px;
-    font-weight: 700px;
-    padding: 20px 40px 20px 40px;
-    margin: 60px;
-    top: 500px;
-    background: #F0A83E;
-    left: 1360px;
-    border-radius: 10px;
-}
-
-.pata{
-    position: absolute;
-    left: 45%;
-    top: 900px;
-    width: 160px;
-}
-.flexh2{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
-    color: #3C2313;
-    font-size: 40px;
-    
-}
-
-.flex{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
-    flex-flow: row;
-    margin: 20px;
-    font-size: 23px;
-    grid-gap: 20px;
-    color: #666666;
-}
-.card1{
-    display: inline-block;
-    position: relative;
-    left: 10px;
-    top: 25px;
-    
-    
-    
-}
-
-.img1{
-    position: absolute;
-    left: 500px;
-    
-}
-
-.tx1{
-    position: relative;
-    font-size: 18px;
-    left: 560px;
-    top: 220px;
-    color: #3C2313;
-    
-}
-
-.tx11{
-    position: absolute;
-    font-size: 18px;
-    left: 610px;
-    top: 245px;
-    color: #F0A83E;
-}
-.card2{
-    display: inline-block;
-    position: relative;
-    left: 650px;
-    top: 26px;
-}
-
-.img2{
-    position: absolute;
-    
-}
-
-.tx2{
-    position: relative;
-    font-size: 18px;
-    left: 25px;
-    top: 220px;
-    color: #3C2313;
-}
-
-.tx22{
-    position: absolute;
-    font-size: 18px;
-    left: 100px;
-    top: 245px;
-    color: #F0A83E;
-}
-
-.card3{
-    display: inline-block;
-    position: relative;
-    left: 245px;
-    top:26px;
-}
-.img3{
-    position: absolute;
-    left: 500px;
-}
-
-.tx3{
-    position: relative;
-    font-size: 18px;
-    left: 570px;
-    top: 220px;
-    color: #3C2313;
-}
-
-.tx33{
-    position: absolute;
-    font-size: 18px;
-    left: 600px;
-    top: 245px;
-    color: #F0A83E;
-}
-
-.contato{
-    position: relative;
-    left: 900px;
-    top: 350px;
-    font-size: 40px;
-    color: #3C2313;
-    font-weight: 600px;
-}
-
-.boxcontato1{
-    position: relative;
-    width: 440px;
-}
-
-.bc1{
-    position: relative;
-    color: rgb(248, 244, 244);
-    font-size:12px;
-    padding: 16px 32px 14px 20px;
-    margin: 9px;
-    top: 370px;
-    background: #3C2313;
-    left: 770px;
-    border-radius: 18px;
-}
-
-.bc2{
-    position: relative;
-    color: rgb(248, 244, 244);
-    font-size:12px;
-    padding: 16px 32px 14px 20px;
-    margin: 9px;
-    top: 370px;
-    background: #3C2313;
-    left: 770px;
-    border-radius: 18px;
-}
-
-.bc3{
-    position: relative;
-    color: rgb(248, 244, 244);
-    font-size:12px;
-    padding: 16px 32px 14px 20px;
-    margin: 9px;
-    top: 370px;
-    background: #3C2313;
-    left: 770px;
-    border-radius: 18px;
-}
-   
-.boxcontato2{
-    position: relative;
-    width: 150px;
-}
-
-.bc4{
-    position: relative;
-    color: rgb(248, 244, 244);
-    font-size:12px;
-    padding: 10px;
-    margin: 20px;
-    top: 370px;
-    background: #8A8787;
-    left: 840px;
-    border-radius: 18px;
-    text-align: center;
-}
-
-.bc5{
-    position: relative;
-    color: rgb(248, 244, 244);
-    font-size:12px;
-    padding: 10px 10px 10px 10px;
-    margin: 20px;
-    top: 317px;
-    background: #F0A83E;
-    left: 1000px;
-    border-radius: 18px;
-    text-align: center;
-}
-
-.inscrição{
-    position: relative;
-    width: 100%;
-    top: 360px;
-    background-color: #F0A83E;
-    height: 110px;
-
-}
-
-.inscrevase{
-    position: relative;
-    color: white;
-    font-size: 30px;
-    left: 100px;
-    top: 37px;
-    
-}
-
-.email{
-    position: relative;
-    left: 1200px;
-    background-color: white;
-    padding: 18px;
-    width: 450px;
-    bottom: 7px;
-    border-radius: 15px;
-    color: black;
-    font-size: 16px;
-}
-
-.enviar{
-    position: relative;
-    left: 1680px;
-    background-color: #3C2313;
-    padding: 18px;
-    width: 130px;
-    bottom: 61px;
-    border-radius: 15px;
-    color: white;
-    text-align: center;
-}
-
-.email2{
-    position: relative;
-    width: 50px;
-    bottom: 112px;
-    left: 39px;
-}
-
-.end{
-    position: relative;
-    width: 100%;
-    top: 360px;
-    background-color: #3C2313;
-    height: 400px;
-}
-
-.local{
-    position: relative;
-    color: white;
-    left: 200px;
-    top: 30px;
-}
-
-.rj{
-    position: relative;
-    color: #8A8787;
-    left: 201px;
-    bottom: 25px;
-    font-size: 11px;
-}
-
-.fone{
-    position: relative;
-    color: white;
-    left: 200px;
-    top: 120px;
-}
-
-.num{
-    position: relative;
-    color: #8A8787;
-    left: 201px;
-    top: 80px;
-    font-size: 11px;
-}
-
-.email3{
-    position: relative;
-    color: white;
-    left: 200px;
-    top: 200px;
-}
-
-.email4{
-    position: relative;
-    color: #8A8787;
-    left: 201px;
-    top: 175px;
-    font-size: 11px;
-}
-
-.localiza{
-    position: relative;
-    width: 100px;
-    bottom: 100px;
-    left: 90px;
-}
-
-.icontel{
-    position: relative;
-    width: 110px;
-    right: 19px;
-    top: 15px;
-}
-
-.iconemail{
-    position: relative;
-    width: 100px;
-    right: 130px;
-    top: 125px;
-}
-
-.textp2{
-    position: relative;
-    color: rgb(247, 243, 243);
-    font-size: 22px;
-    padding: 25px;
-    left: 1600px;
-    font-weight: 700;
-    bottom: 80px;
-    
-}
-
-span{
-    color: #faf8f5;
-    
-}
-
-.cat2{
-    position: relative;
-    height: 40px;
-    left: 1586px;
-    bottom: 145px;
-    
-}
-
-.dog2{
-    position: relative;
-    height: 35px;
-    left: 1732px;
-    bottom: 142px;
-    transform: rotate(15deg);
-}
-
-.pfooter{
-    position: relative;
+.oferta-container{
     background-color: #222222;
-    ;
-    color: rgb(248, 246, 246);
+    width: 100%;
+
+}
+
+.oferta-container div{
+    display: flex;
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-seta{
+width: 10px;
+
+}
+
+.select span{
+   display: inline-block;
+   padding: 10px; 
+
+}
+
+.img-seta.animal{
+    width: 18px;
+
+}
+
+.header-container{
+    width: 100%;
+    background-color: #f0a83e;
+    padding: 14px 0;
+    
+}
+
+.header-content{
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+
+}
+.header-logo h2 span{
+    color: white;
+
+}
+
+.navegation-list{
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+}
+
+.navegation-list li a{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 5px;
+
+}
+
+.home-container{
+    width: 100%;
+    background-image: url(img/bowl-and-pet-daities-on-green-background\ 1.svg);
+    background-size: cover;
+    height: 409px;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.home-content{
+    display: flex;
+    max-width: 365px;
+    flex-direction: column;
     text-align: center;
-    top: 40px;
-    height: 30px;
-    padding: 8px;
+    align-items: center;
+
+}
+
+.home-title{
+    background-color: white;
+    font-size: 1.875rem;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+
+}
+
+.btn{
+    display: inline-block;
+    color: white;
+    padding: 15px 17px;
+    background-color: #f0a83e;
+    border-radius: 5px;
+    margin-top: 12px;
+
 }

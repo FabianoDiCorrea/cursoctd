@@ -10,6 +10,7 @@
 .oferta-container{
     background-color: #222222;
     width: 100%;
+    
 
 }
 
@@ -20,6 +21,7 @@
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .img-seta{
@@ -30,7 +32,7 @@ width: 10px;
 .select span{
    display: inline-block;
    padding: 10px; 
-
+    
 }
 
 .img-seta.animal{
@@ -117,4 +119,30 @@ width: 10px;
     border-radius: 5px;
     margin-top: 12px;
 
+}
+
+.produtos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.produtos h2{
+    font-size: 50px;
+    color: #3C2313;
+    
+}
+
+.produtos p{
+    color: #666666;
+    margin: 15px;
+}
+
+.paw5{
+    
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    
 }
